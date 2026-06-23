@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SegmentationFieldPermission</fullName>
+    <label>Permission pour le champ de segmentation</label>
+    <permissions>
+        <permission>
+            <field>Account.Segmentation__c</field>
+            <permissionType>Read</permissionType>
+        </permission>
+        <permission>
+            <field>Account.Segmentation__c</field>
+            <permissionType>Edit</permissionType>
+        </permission>
+    </permissions>
+    <assignees>
+        <assignee>
+            <role>Responsable des ventes</role>
+        </assignee>
+        <assignee>
+            <role>Marketeur</role>
+        </assignee>
+    </assignees>
+</PermissionSet>
