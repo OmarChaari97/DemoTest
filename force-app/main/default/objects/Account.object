@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account</fullName>
+    <label>Compte</label>
+    <name>Account</name>
+    <fields>
+        <fullName>Segmentation__c</fullName>
+        <label>Segmentation</label>
+        <type>Picklist</type>
+        <picklistValues>
+            <picklistValue>
+                <fullName>Entreprise</fullName>
+                <label>Entreprise</label>
+            </picklistValue>
+            <picklistValue>
+                <fullName>PMI</fullName>
+                <label>PMI</label>
+            </picklistValue>
+            <picklistValue>
+                <fullName>Particulier</fullName>
+                <label>Particulier</label>
+            </picklistValue>
+        </picklistValues>
+    </fields>
+</CustomObject>
