@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <reportType>Case</reportType>
+    <name>CasesOuvertes</name>
+    <label>Cases Ouvertes</label>
+    <description>Rapport des cases ouvertes</description>
+    <format>Summary</format>
+    <columns>
+        <field>Case.Subject</field>
+        <field>Case.Description</field>
+        <field>Case.CreatedDate</field>
+        <field>Case.OwnerId</field>
+        <field>Account.Name</field>
+    </columns>
+    <groupingsDown>
+        <field>Case.Priority</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <filter>
+        <criteriaItems>
+            <column>Case.Status</column>
+            <operator>equals</operator>
+            <value>Open</value>
+        </criteriaItems>
+    </filter>
+    <showDetails>true</showDetails>
+    <scope>organization</scope>
+</Report>
