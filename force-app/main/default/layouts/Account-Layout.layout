@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account-Layout</fullName>
+    <label>Disposition Compte</label>
+    <layoutType>Compact</layoutType>
+    <sections>
+        <!-- Section principale -->
+        <section>
+            <columns>
+                <column>
+                    <!-- Autres champs -->
+                </column>
+            </columns>
+        </section>
+    </sections>
+</Layout>
