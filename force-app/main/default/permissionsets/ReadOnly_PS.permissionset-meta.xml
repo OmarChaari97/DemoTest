@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>ReadOnly</label>
+    <fullName>ReadOnly_PS</fullName>
+    <hasActivationPolicy>false</hasActivationPolicy>
+    <description>Permission set pour accès en lecture aux champs des cases</description>
+    <objectPermissions>
+        <enableRead>true</enableRead>
+        <object>Case</object>
+    </objectPermissions>
+</PermissionSet>
