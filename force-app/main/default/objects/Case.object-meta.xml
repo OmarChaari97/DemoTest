@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case</fullName>
+    <label>Case</label>
+    <name>Case</name>
+    <pluralLabel>Cases</pluralLabel>
+    <nameField>
+        <fullName>Subject</fullName>
+        <label>Subject</label>
+        <type>Text</type>
+    </nameField>
+    <fields>
+        <fullName>Is_Urgent__c</fullName>
+        <label>Is Urgent</label>
+        <type>Boolean</type>
+        <description>Indique si la case est urgente</description>
+    </fields>
+</CustomObject>
